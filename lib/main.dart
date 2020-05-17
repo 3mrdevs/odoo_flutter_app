@@ -90,4 +90,8 @@ class _MyHomePageState extends State<MyHomePage> {
   List<HashMap<String, String>> list;
   bool flagProgress = true;
 
+  Future<Null> loadData() async {
+    final response = await http.get('http://localhost:8080/api/books');
+
+  }
 }
