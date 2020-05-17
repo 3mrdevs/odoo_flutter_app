@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: getListView(),
-          ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
@@ -56,4 +56,12 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
+
+
+  ListView getListView() => ListView.builder(
+      itemCount: list.length,
+      itemBuilder: (BuildContext context, int position) {
+        return getRow(position);
+      });
+
 }
