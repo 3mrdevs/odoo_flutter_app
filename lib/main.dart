@@ -86,7 +86,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-
   List<HashMap<String, String>> list;
   bool flagProgress = true;
 
@@ -96,7 +95,10 @@ class _MyHomePageState extends State<MyHomePage> {
     if (response.statusCode == 200) {
       debugPrint(response.body);
       if (json.decode(response.body)["success"] == 1) {
-
+        setState(() {
+          list = json.decode(response.body)["data"];
+          flagProgress = false;
+        });
       } else {
         setState(() {
           flagProgress = false;
