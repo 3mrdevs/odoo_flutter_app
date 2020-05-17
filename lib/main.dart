@@ -94,7 +94,14 @@ class _MyHomePageState extends State<MyHomePage> {
     final response = await http.get('http://localhost:8080/api/books');
 
     if (response.statusCode == 200) {
+      debugPrint(response.body);
+      if (json.decode(response.body)["success"] == 1) {
 
+      } else {
+        setState(() {
+          flagProgress = false;
+        });
+      }
     } else {
       // If that call was not successful, throw an error.
       throw Exception('Failed to load books');
