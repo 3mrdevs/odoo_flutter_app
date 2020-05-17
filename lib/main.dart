@@ -88,5 +88,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
   List<HashMap<String, String>> list;
+  bool flagProgress = true;
 
 }
