@@ -47,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-//        child: getListView(),
-      ),
+        child: getListView(),
+          ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
@@ -56,5 +56,4 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
 }
