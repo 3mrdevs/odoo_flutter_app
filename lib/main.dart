@@ -63,7 +63,6 @@ class _MyHomePageState extends State<MyHomePage> {
         return getRow(position);
       });
 
-
   Widget getRow(int i) {
     return GestureDetector(
       // When the child is tapped, show a snackbar
@@ -77,14 +76,17 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Card(
           child: Container(
               child: new Row(children: [
-                new Column(children: [
-                  new Image.asset('assets/images/placeholder.jpg',
-                      width: 383.0, height: 150.0, fit: BoxFit.cover),
-                ]),
-              ])),
+            new Column(children: [
+              new Image.asset('assets/images/placeholder.jpg',
+                  width: 383.0, height: 150.0, fit: BoxFit.cover),
+            ]),
+          ])),
         ),
       ),
     );
   }
+
+
+  List<HashMap<String, String>> list;
 
 }
