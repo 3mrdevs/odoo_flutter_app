@@ -93,5 +93,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Future<Null> loadData() async {
     final response = await http.get('http://localhost:8080/api/books');
 
+    if (response.statusCode == 200) {
+
+    } else {
+      // If that call was not successful, throw an error.
+      throw Exception('Failed to load books');
+    }
   }
 }
