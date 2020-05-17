@@ -1,3 +1,1 @@
-# Odoo Flutter App
-
-Simple example of a book store app made with flutter which connected to an [Odoo Backend API Controller](https://github.com/3mrdevs/odoo_flutter_backend).
+![Flutter Logo](https://github.com/3mrdevs/odoo_flutter_app/blob/master/screenshots/icon.png?raw=true)
