@@ -7,3 +7,4 @@
 [![GitHub issues](https://img.shields.io/github/issues/3mrdevs/odoo_flutter_app)](https://github.com/3mrdevs/odoo_flutter_app/issues)
 [![Hex.pm](https://img.shields.io/hexpm/l/plug)](https://github.com/3mrdevs/odoo_flutter_app/blob/master/LICENSE)
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/3mrdevs/odoo_flutter_app?include_prereleases)](https://github.com/3mrdevs/odoo_flutter_app/releases/tag/master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/3mrdevs/odoo_flutter_app)](https://github.com/3mrdevs/odoo_flutter_app)
