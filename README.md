@@ -14,3 +14,6 @@ Simple example of a book store app made with flutter which connected to an
 
 [Odoo Backend API Controller](https://github.com/3mrdevs/odoo_flutter_app) .
 </p>
+
+
+# Step by step commits so you can get aboard easily
