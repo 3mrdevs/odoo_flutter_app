@@ -5,3 +5,4 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/3mrdevs/odoo_flutter_app/graphs/commit-activity)
 [![GitHub issues](https://img.shields.io/github/issues/3mrdevs/odoo_flutter_app)](https://github.com/3mrdevs/odoo_flutter_app/issues)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug)](https://github.com/3mrdevs/odoo_flutter_app/blob/master/LICENSE)
