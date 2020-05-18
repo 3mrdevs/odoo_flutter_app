@@ -10,5 +10,7 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/3mrdevs/odoo_flutter_app)](https://github.com/3mrdevs/odoo_flutter_app)
 
 <p>
-Simple example of a book store app made with flutter which connected to an [Odoo Backend API Controller](https://github.com/3mrdevs/odoo_flutter_app).
+Simple example of a book store app made with flutter which connected to an 
+
+[Odoo Backend API Controller](https://github.com/3mrdevs/odoo_flutter_app) .
 </p>
